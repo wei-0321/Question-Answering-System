@@ -5,14 +5,19 @@ The dataset includes more than 400000 question-answer pairs which are some gossi
 # Overview 
 (not down yet)
 
+introduction PPT : 
+
+[Question-Answering-System.pptx](https://github.com/wei-0321/Question-Answering-System/files/7361808/Question-Answering-System.pptx)
+
 Below are some demo pictures:
 
-input:
+(web)
 
+![image](https://user-images.githubusercontent.com/71260071/137666166-59f51e3a-4f95-45e9-adb7-9dc19509a21e.png)
 
-output(result):
+(query)
 
-
+![image](https://user-images.githubusercontent.com/71260071/137666426-51db294c-eb10-45bb-a96e-c665a59f57e9.png)
 
 
 # Requirements 
