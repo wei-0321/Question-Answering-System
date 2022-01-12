@@ -3,7 +3,6 @@ A traditional Chinese question answering system with TF-IDF(Term Frequency - Inv
 The dataset includes more than 400000 question-answer pairs which are some gossip in taiwan.
 
 # Overview 
-(not down yet)
 
 introduction PPT : 
 
@@ -11,8 +10,11 @@ introduction PPT :
 
 Below are some demo pictures:
 
-Type a question you want to ask, then the system will compare the similarity between user-question and dataset-question, finally finds top three similar questions and gives you corresponding three answers.
+flow chart：
+![flowchart](https://user-images.githubusercontent.com/71260071/149165926-73193b5d-6e56-4650-9a80-3916bdecdbd9.PNG)
 
+Type a question you want to ask, then the system will compare the similarity between user-question and dataset-question, finally finds top three similar questions and gives you corresponding three answers.
+![image](https://user-images.githubusercontent.com/71260071/149169374-dda71743-f34a-4083-9024-db876556da56.png)
 
 
 # Requirements 
@@ -43,21 +45,28 @@ package:
 
 
 # Project Structure
-(not down yet)
 
 ```
 (Path)                           (Description)
-                     Main folder     
+Question-Answering-System        Main folder     
 │  │
-│  ├ predict.py                  Main program 
+│  ├ predict.py                  Main program(use pretrained TF-IDF model to predict) 
 │  │
-│  ├ train.py                  
+│  ├ train.py                    train TF-IDF model
 │  │
 │  ├  dataset
 │  │  │
-│  │  ├ 
+│  │  ├ lexicon1_raw_nosil.txt    Traditional Chinese vocabulary
+│  │  │
+│  │  ├ dict_TW.txt               Traditional Chinese vocabulary(jieba format)    
+│  │  │
+│  │  ├ Gossiping-QA-Dataset.txt  question-answer pairs
 │  │
 │  ├  model
 │  │  │
-│  │  ├ 
+│  │  ├ IDF_model.txt
+│  │  │
+│  │  ├ TF_IDF_model.txt
+│  │  │
+│  │  ├ QA.txt                    question-answer pairs 
 │  │
