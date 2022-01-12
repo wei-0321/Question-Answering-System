@@ -14,6 +14,8 @@ flow chart：
 ![flowchart](https://user-images.githubusercontent.com/71260071/149165926-73193b5d-6e56-4650-9a80-3916bdecdbd9.PNG)
 
 Type a question you want to ask, then the system will compare the similarity between user-question and dataset-question, finally finds top three similar questions and gives you corresponding three answers.
+
+demo：
 ![image](https://user-images.githubusercontent.com/71260071/149169374-dda71743-f34a-4083-9024-db876556da56.png)
 
 
