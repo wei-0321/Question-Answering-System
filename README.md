@@ -1,5 +1,5 @@
 # Question-Answering-System
-A traditional Chinese question answering system with tf-idf algorithm, using the dataset created from this forum named "ptt".
+A traditional Chinese question answering system with TF-IDF(Term Frequency - Inverse Document Frequency) algorithm, using the dataset created from this forum named "ptt".
 The dataset includes more than 400000 question-answer pairs which are some gossip in taiwan.
 
 # Overview 
@@ -11,20 +11,16 @@ introduction PPT :
 
 Below are some demo pictures:
 
-(web)
+Type a question you want to ask, then the system will compare the similarity between user-question and dataset-question, finally finds top three similar questions and gives you corresponding three answers.
 
-![image](https://user-images.githubusercontent.com/71260071/137666166-59f51e3a-4f95-45e9-adb7-9dc19509a21e.png)
-
-(query)
-
-![image](https://user-images.githubusercontent.com/71260071/137666426-51db294c-eb10-45bb-a96e-c665a59f57e9.png)
 
 
 # Requirements 
-(not down yet)
+package:
+- numpy
+- jieba
 
 # Usage 
-(not down yet)
 
 1.Open git bash. 
 
@@ -34,15 +30,15 @@ Below are some demo pictures:
 ```
 3.Clone this repository. 
 ```
-> git clone https://github.com/wei-0321/.git
+> git clone https://github.com/wei-0321/Question-Answering-System.git
 ```
 4.Change the diretory to this repository.
 ```
-> cd 
+> cd Question-Answering-System
 ```
 5.Execute the program.
 ```
-> python .py
+> python predict.py
 ```
 
 
@@ -50,16 +46,18 @@ Below are some demo pictures:
 (not down yet)
 
 ```
-(Path)                                	(Description)
+(Path)                           (Description)
                      Main folder     
 │  │
-│  ├ .py                  Main program
+│  ├ predict.py                  Main program 
 │  │
-│  ├ 
+│  ├ train.py                  
+│  │
+│  ├  dataset
 │  │  │
 │  │  ├ 
 │  │
-│  ├ 
+│  ├  model
 │  │  │
 │  │  ├ 
 │  │
